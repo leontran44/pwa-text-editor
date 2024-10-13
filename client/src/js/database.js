@@ -1,5 +1,4 @@
 import { openDB } from 'idb';
-import { ids } from 'webpack';
 
 const initdb = async () =>
 	openDB('jate', 1, {
